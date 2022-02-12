@@ -1,0 +1,141 @@
+.info-container {
+  min-height: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  width: 200px;
+  height: 200px;
+}
+.first {
+  background-color: #fff4f0;
+  flex: 1;
+  filter: blur(20px);
+}
+.second {
+  background-color: #f6f2ff;
+  flex: 1;
+  mix-blend-mode: multiply;
+  filter: blur(30px);
+}
+.third {
+  background-color: #f6e4f0;
+  flex: 1;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+  filter: blur(30px);
+}
+.fourth {
+  background-color: #ecfefe;
+  flex: 1;
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+  filter: blur(40px);
+}
+.first-wrapper {
+  display: flex;
+  width: 100%;
+}
+.second-wrapper {
+  display: flex;
+  width: 100%;
+}
+.text-container {
+  background: #fff;
+  background: linear-gradient(45deg, #fff);
+  filter: blur(60px);
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 23rem;
+  border-radius: 30px;
+  height: 25rem;
+  border: 1px solid red;
+}
+.text-content {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 23rem;
+  text-align: center;
+}
+.text-content h4 {
+  padding: 20px 0;
+  font-size: 42px;
+  margin-top: 8rem;
+  font-family: "Tomato-Grotesk";
+}
+.text-content p {
+  color: #4a5050;
+  line-height: 1.6;
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  font-family: "DM sans";
+}
+@media (min-width: 760px) and (max-width: 1300px) {
+  .text-container {
+    left: 15rem;
+    height: 30rem;
+    width: 50%;
+  }
+  .text-content {
+    position: absolute;
+    top: 1rem;
+    bottom: 0;
+    left: 13rem;
+    width: 53%;
+  }
+  .text-content h4 {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 759px) {
+  .text-container {
+    left: 14rem;
+    height: 30rem;
+    width: 50%;
+  }
+  .text-content {
+    position: absolute;
+    top: 1rem;
+    bottom: 0;
+    left: 8rem;
+    width: 65%;
+  }
+  .first,
+  .second,
+  .third,
+  .fourth {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .text-container {
+    left: 5rem;
+    height: 30rem;
+    width: 50%;
+  }
+  .text-content {
+    position: absolute;
+    top: 1rem;
+    bottom: 0;
+    left: 4rem;
+    width: 65%;
+  }
+  .text-content h4 {
+    font-size: 35px;
+  }
+  .text-content p {
+    width: 95%;
+    font-size: 16px;
+  }
+}

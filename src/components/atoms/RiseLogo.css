@@ -1,0 +1,16 @@
+.rise-logo {
+  color: #07969e;
+  font-weight: 700;
+  font-size: 38px;
+  font-family: "Tomato-Grotesk";
+}
+.logo-dot {
+  display: inline-block;
+  background-color: #07969e;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  bottom: 15px;
+  position: relative;
+  right: 8px;
+}

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: #fff;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+ul li {
+  position: relative;
+}
+li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #07969e;
+  font-family: "Tomato-Grotesk";
+}
+.active-link + .active-dot {
+  width: 7px;
+  height: 7px;
+  background-color: #07969e;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 3rem;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+@media (max-width: 830px) {
+  .log {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #fff;
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    z-index: 1;
+  }
+  li {
+    padding: 12px 0;
+  }
+  li a {
+    color: #07969e;
+    text-align: center;
+    padding: 32px 22px;
+    width: 100%;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+    color: #07969e;
+    font-weight: 400;
+  }
+}

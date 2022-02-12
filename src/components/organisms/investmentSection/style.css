@@ -1,0 +1,64 @@
+.investment-wrapper {
+  width: 90%;
+  margin: auto;
+}
+.investment-wrapper h3 {
+  font-size: 38px;
+  color: #2d2d2d;
+  width: 90%;
+  font-family: "Tomato-Grotesk";
+}
+.investment-wrapper p {
+  width: 80%;
+  line-height: 1.8;
+  font-size: 20px;
+  color: #2d2d2d;
+  padding: 20px 0;
+  font-family: "DM Sans";
+}
+.investment-wrapper a {
+  color: #07969e;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Tomato-Grotesk";
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.investment-text {
+  flex: 1;
+}
+.investment-image {
+  flex: 1;
+}
+@media (max-width: 975px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .row-reverse {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  .investment-image img {
+    width: 70%;
+    height: auto;
+  }
+  .investment-wrapper h3,
+  p {
+    margin: auto;
+  }
+}

@@ -1,0 +1,151 @@
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  background: #ecfefe;
+  border-radius: 50px;
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+  height: 28rem;
+}
+.phone-image img {
+  width: 250px;
+  height: auto;
+}
+.download-contents {
+  padding-left: 3rem;
+  flex: 1;
+  height: 100%;
+  margin-top: 6rem;
+}
+.download-contents p {
+  color: #07969e;
+  font-weight: 500;
+  font-family: "DM sans";
+  font-size: 18px;
+  padding: 0 0 1.5rem 0;
+}
+.download-contents h4 {
+  font-weight: 600;
+  font-family: "Tomato-Grotesk";
+  font-size: 40px;
+  padding-bottom: 2rem;
+}
+.download-contents .dollar-text {
+  color: #4a5050;
+  margin: 25px 0;
+  font-size: 20px;
+  font-family: "DM sans";
+  padding: 6rem 0;
+  font-weight: 500;
+}
+.phone-image {
+  margin-top: 4rem;
+  padding-right: 6rem;
+  overflow: hidden;
+  flex: 0.5;
+  justify-self: center;
+}
+.ios-app {
+  margin-top: 2rem;
+  width: 48%;
+  justify-content: space-between;
+  display: flex;
+}
+@media only screen and (max-width: 1183px) and (min-width: 840px) {
+  .download-section {
+    height: 32rem;
+  }
+  .ios-app {
+    width: 73%;
+  }
+}
+
+@media (max-width: 827px) {
+  .download-section {
+    flex-direction: column;
+    align-items: center;
+    height: 47rem;
+    width: 90%;
+  }
+  .download-contents {
+    text-align: center;
+  }
+  .download-contents h4 {
+    width: 90%;
+    margin: auto;
+    font-size: 38px;
+  }
+
+  .ios-app {
+    padding-left: 1rem;
+    margin-top: 0rem;
+    min-width: 50%;
+    margin: auto;
+    padding-top: 3rem;
+  }
+  .ios-app img {
+    width: 7.8rem;
+  }
+  .phone-image {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 663px) {
+  .ios-app {
+    padding-left: 1rem;
+    margin-top: 0rem;
+    width: 70%;
+    margin: auto;
+    padding-top: 3rem;
+  }
+  .ios-app img {
+    width: 7rem;
+  }
+  .phone-image {
+    margin-left: 5.9rem;
+  }
+}
+@media (max-width: 440px) {
+  .ios-app img {
+    width: 5.5rem;
+  }
+  .download-section {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .ios-app {
+    padding-left: 0;
+  }
+  .download-contents h4 {
+    width: 90%;
+  }
+}
+@media (max-width: 375px) {
+  .download-section {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .phone-image {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 290px) {
+  .download-section {
+    width: 100vw;
+    margin-left: 2rem;
+    overflow: hidden;
+  }
+  .download-contents h4 {
+    width: 100%;
+  }
+  .phone-image {
+    margin-left: 4rem;
+    overflow: hidden;
+  }
+  .ios-app img {
+    width: 5rem;
+    overflow: hidden;
+  }
+}

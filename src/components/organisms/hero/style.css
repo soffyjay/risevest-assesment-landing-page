@@ -1,0 +1,171 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.hero-text {
+  flex: 1;
+  color: #07969e;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.hero-text h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  width: 100%;
+  font-family: "Tomato-Grotesk";
+}
+.hero-text h2 {
+  font-weight: 300;
+  color: #4a5050;
+  font-size: 18px;
+  width: 80%;
+  line-height: 1.4;
+  margin: 20px 0;
+  font-family: "DM Sans";
+}
+.hero-image {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 40px;
+  position: relative;
+}
+.hero-image img {
+  width: 250px;
+  animation: MoveUpDown 7s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 40px;
+  }
+}
+.app-download {
+  display: flex;
+  justify-content: space-between;
+  width: 57%;
+}
+.hero-logos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+@media (max-width: 800px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .app-download {
+    margin: auto;
+    padding-bottom: 10px;
+    min-width: 70%;
+  }
+  .app-download img {
+    padding: 20px;
+  }
+  .hero-logos {
+    max-width: 90%;
+    margin: auto;
+  }
+  .hero-text h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+  }
+  .hero-text h1 {
+    font-size: 35px;
+    overflow: hidden;
+  }
+  #firstdot,
+  #seconddot,
+  #thirddot,
+  #fourthdot,
+  #fifthdot {
+    opacity: 0.5;
+  }
+}
+@media (max-width: 560px) {
+  .app-download {
+    width: 95%;
+  }
+  .hero-text h1 {
+    font-size: 35px;
+    overflow: hidden;
+  }
+  .hero-logos img {
+    width: 70px;
+    height: 40px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .app-download {
+    width: 74%;
+  }
+}
+@media (min-width: 820px) and (max-width: 999px) {
+  .app-download {
+    width: 85%;
+  }
+}
+
+#firstdot,
+#seconddot,
+#thirddot {
+  height: 40px;
+  width: 40px;
+  background-color: #c0eaee;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.65;
+}
+#firstdot {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+#seconddot {
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+}
+#thirddot {
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+}
+
+#fourthdot,
+#fifthdot {
+  height: 30px;
+  width: 30px;
+  background-color: #c0eaee;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.7;
+}
+#fourthdot {
+  position: absolute;
+  bottom: 30%;
+  left: 45%;
+}
+#fifthdot {
+  top: 20%;
+  position: absolute;
+  left: 50%;
+}
