@@ -89,4 +89,7 @@ footer {
   }
 }
 @media (min-width: 1400px) {
+  .ios-app {
+    width: 19rem;
+  }
 }
