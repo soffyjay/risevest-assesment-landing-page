@@ -62,7 +62,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 27rem;
+  left: 29rem;
   text-align: center;
 }
 .text-content h4 {
@@ -81,7 +81,7 @@
 }
 @media (min-width: 760px) and (max-width: 1300px) {
   .text-container {
-    left: 15rem;
+    left: 20rem;
     height: 30rem;
     width: 50%;
   }
