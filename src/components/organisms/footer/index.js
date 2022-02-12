@@ -40,7 +40,7 @@ const Footer = () => {
                 <Link to="/">
                   Investmet Club{" "}
                   <span>
-                    <img src={arrowup} />
+                    <img src={arrowup} alt="arrow" />
                   </span>
                 </Link>
               </li>
@@ -48,7 +48,7 @@ const Footer = () => {
                 <Link to="/">
                   Blog{" "}
                   <span>
-                    <img src={arrowup} />
+                    <img src={arrowup} alt="arrow" />
                   </span>
                 </Link>
               </li>
@@ -77,7 +77,7 @@ const Footer = () => {
                 <Link to="/">
                   0818 714 7405{" "}
                   <span>
-                    <img src={arrowup} />
+                    <img src={arrowup} alt="arrow" />
                   </span>
                 </Link>
               </li>
@@ -85,7 +85,7 @@ const Footer = () => {
                 <Link to="/">
                   hello@rise.capital{" "}
                   <span>
-                    <img src={arrowup} />
+                    <img src={arrowup} alt="arrow" />
                   </span>
                 </Link>
               </li>
@@ -93,7 +93,7 @@ const Footer = () => {
                 <Link to="/">
                   Newsletter{" "}
                   <span>
-                    <img src={arrowup} />
+                    <img src={arrowup} alt="arrow" />
                   </span>
                 </Link>
               </li>
@@ -101,7 +101,7 @@ const Footer = () => {
                 <Link to="/">
                   Instagram{" "}
                   <span>
-                    <img src={arrowup} />
+                    <img src={arrowup} alt="arrow" />
                   </span>
                 </Link>
               </li>
@@ -109,7 +109,7 @@ const Footer = () => {
                 <Link to="/">
                   Twitter{" "}
                   <span>
-                    <img src={arrowup} />
+                    <img src={arrowup} alt="arrow" />
                   </span>
                 </Link>
               </li>

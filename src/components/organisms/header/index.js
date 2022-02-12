@@ -48,7 +48,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/#products">
-                  Products <img src={arrowdown} />
+                  Products <img src={arrowdown} alt="arrow" />
                 </Link>
                 <span className="active-dot"></span>
               </li>

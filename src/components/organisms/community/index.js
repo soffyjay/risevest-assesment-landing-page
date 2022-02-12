@@ -15,7 +15,7 @@ const JoinCommunity = () => {
           new and seasoned investors.
         </p>
         <span>
-          <a href="#">Join our Community</a>
+          <a href="/">Join our Community</a>
         </span>
       </div>
       <div className="image">

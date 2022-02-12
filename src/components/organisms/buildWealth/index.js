@@ -6,7 +6,7 @@ const BuildWealth = () => {
   return (
     <div className="wealth-container">
       <div className="wealth-image">
-        <img src={phone} />
+        <img src={phone} alt="phoneicon" />
       </div>
       <div className="wealth-text">
         <h3>The Rise App</h3>

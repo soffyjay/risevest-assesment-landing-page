@@ -19,7 +19,7 @@ const InvestmentSection = () => {
             </a>
           </div>
           <div className="investment-image">
-            <img src={data.image} />
+            <img src={data.image} alt="graphics" />
           </div>
         </div>
       ))}

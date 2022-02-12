@@ -18,7 +18,7 @@ const AssetSection = () => {
           <div>
             <div className="upper-container-second"></div>
             <div className="round-image">
-              <img src={firstImage} />
+              <img src={firstImage} alt=" " />
             </div>
             <div className="asset-texts">
               <h4>Stocks</h4>
@@ -37,7 +37,8 @@ const AssetSection = () => {
               </div>
             </div>
             <span className="foot-link">
-              <a href="/">Learn how Real Estate work</a> <img src={vector} />
+              <a href="/">Learn how Real Estate work</a>{" "}
+              <img src={vector} alt=" " />
             </span>
           </div>
         </div>
@@ -45,7 +46,7 @@ const AssetSection = () => {
           <div>
             <div className="upper-container-second"></div>
             <div className="round-image">
-              <img src={secondImage} />
+              <img src={secondImage} alt=" " />
             </div>
             <div className="asset-texts">
               <h4>Real Estate</h4>
@@ -64,7 +65,8 @@ const AssetSection = () => {
               </div>
             </div>
             <span className="foot-link">
-              <a href="/">Learn how Real Estate work</a> <img src={vector} />
+              <a href="/">Learn how Real Estate work</a>{" "}
+              <img src={vector} alt=" " />
             </span>
           </div>
         </div>
@@ -72,7 +74,7 @@ const AssetSection = () => {
           <div>
             <div className="upper-container-third"></div>
             <div className="round-image">
-              <img src={thirdImage} />
+              <img src={thirdImage} alt=" " />
             </div>
             <div className="asset-texts">
               <h4>Fixed Income</h4>
@@ -92,7 +94,8 @@ const AssetSection = () => {
               </div>
             </div>
             <span className="foot-link">
-              <a href="/">Learn how Fixed Income work</a> <img src={vector} />
+              <a href="/">Learn how Fixed Income work</a>{" "}
+              <img src={vector} alt="leftarrow" />
             </span>
           </div>
         </div>

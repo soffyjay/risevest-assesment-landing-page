@@ -20,7 +20,7 @@ const Reviews = () => {
             people like Rise who are skilled and knowledgeable.
           </p>
           <div className="review-person">
-            <img src={jide} alt="customer picture" />
+            <img src={jide} alt="customer" />
             <span>Lade</span>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Reviews = () => {
             people like Rise who are skilled and knowledgeable.
           </p>
           <div className="review-person">
-            <img src={lade} alt="customer picture" />
+            <img src={lade} alt="customer" />
             <span>Jesse</span>
           </div>
         </div>
@@ -42,7 +42,7 @@ const Reviews = () => {
             people like Rise who are skilled and knowledgeable.
           </p>
           <div className="review-person">
-            <img src={jesse} alt="customer picture" />
+            <img src={jesse} alt="customer" />
             <span>Raye</span>
           </div>
         </div>
