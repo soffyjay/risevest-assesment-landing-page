@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 45px;
+}
+
+.asset-header {
+  text-align: center;
+  margin-top: 40px;
+}
+.asset-header h3 {
+  font-size: 45px;
+  padding: 10px 0;
+  font-family: "Tomato-Grotesk";
+}
+.asset-header p {
+  font-size: 18px;
+  font-family: "DM Sans";
+}
+.first-asset,
+.second-asset,
+.third-asset {
+  min-height: 600px;
+  border: #c4c4c4;
+  width: 28%;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.upper-container-first {
+  background-color: #fff4f0;
+  height: 120px;
+}
+
+.upper-container-second {
+  background-color: #f6f2ff;
+  height: 120px;
+}
+.upper-container-third {
+  background-color: #ecfefe;
+  height: 120px;
+}
+.round-image {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  position: relative;
+  bottom: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 130px;
+}
+.asset-texts {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+.asset-texts h4 {
+  font-size: 28px;
+  padding-bottom: 20px;
+  font-family: "Tomato-Grotesk";
+}
+.asset-texts p {
+  width: 90%;
+  margin: auto;
+  font-size: 17px;
+  color: #4a5050;
+  line-height: 1.6;
+  font-family: "DM sans";
+}
+.foot-text {
+  margin-top: 20px;
+  height: 100%;
+}
+.foot-text1 {
+  margin-top: 80px;
+  height: 100%;
+}
+.foot-text span,
+.foot-text1 span {
+  color: #919fb5;
+}
+.foot-link {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 0 10px 10px 10px;
+}
+.foot-link a {
+  text-decoration: none;
+  color: #07969e;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Tomato-Grotesk";
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 860px) {
+  .container {
+    width: 100%;
+  }
+  .round-image {
+    position: relative;
+    left: 70px;
+  }
+}
+@media (max-width: 850px) {
+  .container {
+    flex-direction: column;
+  }
+  .first-asset,
+  .second-asset,
+  .third-asset {
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  .round-image {
+    position: relative;
+    left: 180px;
+  }
+}
+@media (max-width: 640px) {
+  .round-image {
+    position: relative;
+    left: 100px;
+  }
+}
+@media (max-width: 420px) {
+  .round-image {
+    position: relative;
+    left: 80px;
+  }
+}

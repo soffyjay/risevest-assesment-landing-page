@@ -1,0 +1,83 @@
+.review-section {
+  width: 100%;
+  margin-top: 7rem;
+}
+.review-section h4 {
+  text-align: center;
+  color: #40bbc3;
+  font-size: 38px;
+  font-family: "Tomato-Grotesk";
+  font-weight: 600;
+}
+
+.review-section .mission-text {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-family: "DM sans";
+}
+.review-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 98%;
+  margin: auto;
+}
+.review-box {
+  margin: 10px 20px;
+  box-shadow: 0px 12px 24px rgba(64, 187, 195, 0.15);
+  border-radius: 10px;
+  min-height: 18rem;
+  padding-bottom: 20px;
+}
+.review-box p {
+  font-family: "DM sans";
+  padding: 32px 25px 8px 25px;
+  line-height: 1.6;
+}
+.review-person {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 38%;
+  align-items: center;
+}
+.review-person img {
+  border-radius: 50%;
+}
+.review-person span {
+  font-weight: 600;
+  font-family: "Tomato-Grotesk";
+}
+@media (min-width: 800px) and (max-width: 1032px) {
+  .review-person {
+    width: 60%;
+  }
+}
+@media (max-width: 799px) {
+  .review-container {
+    flex-direction: column;
+  }
+  .review-box {
+    width: 70%;
+    margin: auto;
+  }
+  .review-section .mission-text {
+    width: 60%;
+  }
+  .review-section h4 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 489px) {
+  .review-person {
+    width: 70%;
+  }
+  .review-section h4 {
+    width: 80%;
+    margin: auto;
+  }
+}

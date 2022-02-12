@@ -1,0 +1,61 @@
+.wealth-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 7rem;
+}
+
+.wealth-image {
+  flex: 1;
+}
+.wealth-image img {
+  width: auto;
+  height: 650px;
+}
+.wealth-text {
+  flex: 0.85;
+  margin-top: 9.2rem;
+}
+.wealth-text h3 {
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 20px;
+  font-family: "Tomato-Grotesk";
+}
+.wealth-text h4 {
+  font-size: 42px;
+  padding-bottom: 20px;
+  font-family: "Tomato-Grotesk";
+}
+.wealth-text h4 span {
+  color: #8573f7;
+  font-weight: 700;
+}
+.wealth-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 94%;
+  font-family: "Tomato-Grotesk";
+  color: #2d2d2d;
+}
+.save-button {
+  margin-top: 26px;
+  background: #07969e;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 14px 34px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+@media (max-width: 1024px) {
+  .wealth-container {
+    width: 90%;
+  }
+}
+@media (max-width: 870px) {
+  .wealth-container {
+    display: none;
+  }
+}
