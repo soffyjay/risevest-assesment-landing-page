@@ -89,8 +89,8 @@
     position: absolute;
     top: 1rem;
     bottom: 0;
-    left: 13rem;
-    width: 53%;
+    left: 1rem;
+    width: 100%;
   }
   .text-content h4 {
     width: 90%;
@@ -107,8 +107,8 @@
     position: absolute;
     top: 1rem;
     bottom: 0;
-    left: 8rem;
-    width: 65%;
+    left: 1rem;
+    width: 100%;
   }
   .first,
   .second,
@@ -128,14 +128,15 @@
     position: absolute;
     top: 1rem;
     bottom: 0;
-    left: 4rem;
-    width: 65%;
+    left: 1rem;
+    padding: 3rem;
+    width: 100%;
   }
   .text-content h4 {
     font-size: 35px;
   }
   .text-content p {
-    width: 95%;
+    width: 100%;
     font-size: 16px;
   }
 }

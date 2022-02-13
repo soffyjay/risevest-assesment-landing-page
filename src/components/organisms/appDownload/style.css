@@ -3,9 +3,7 @@
   justify-content: space-between;
   background: #ecfefe;
   border-radius: 50px;
-  width: 90%;
-  margin: auto;
-  margin-top: 4rem;
+  margin: 4rem 2rem 0 2rem;
   height: 28rem;
 }
 .phone-image img {
@@ -17,6 +15,7 @@
   flex: 1;
   height: 100%;
   margin-top: 6rem;
+  width: 100%;
 }
 .download-contents p {
   color: #07969e;
@@ -30,6 +29,7 @@
   font-family: "Tomato-Grotesk";
   font-size: 40px;
   padding-bottom: 2rem;
+  width: 100%;
 }
 .download-contents .dollar-text {
   color: #4a5050;
@@ -57,7 +57,7 @@
     height: 32rem;
   }
   .ios-app {
-    width: 73%;
+    width: 21.3rem;
   }
 }
 
@@ -65,16 +65,16 @@
   .download-section {
     flex-direction: column;
     align-items: center;
-    height: 47rem;
+    height: 43rem;
     width: 90%;
   }
   .download-contents {
     text-align: center;
+    padding-left: 0;
   }
   .download-contents h4 {
-    width: 90%;
-    margin: auto;
-    font-size: 38px;
+    font-size: 28px;
+    padding: 0 0.6rem;
   }
 
   .ios-app {
@@ -85,7 +85,8 @@
     padding-top: 3rem;
   }
   .ios-app img {
-    width: 7.8rem;
+    width: 120px;
+    height: auto;
   }
   .phone-image {
     margin-left: 5rem;
@@ -99,17 +100,19 @@
     margin: auto;
     padding-top: 3rem;
   }
-  .ios-app img {
-    width: 7rem;
+  .download-contents h4 {
+    font-size: 28px;
+    padding: 1rem 0;
   }
+
   .phone-image {
     margin-left: 5.9rem;
   }
+  .download-contents {
+    padding-left: 0;
+  }
 }
 @media (max-width: 440px) {
-  .ios-app img {
-    width: 5.5rem;
-  }
   .download-section {
     width: 90%;
     margin: auto;
@@ -119,33 +122,37 @@
     padding-left: 0;
   }
   .download-contents h4 {
-    width: 90%;
+    font-size: 28px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .download-section {
     width: 100%;
-    margin-left: 1rem;
+    margin-left: 0;
   }
   .phone-image {
     margin-left: 4rem;
   }
+  .ios-app {
+    width: 18rem;
+  }
 }
-@media (max-width: 290px) {
+@media (max-width: 300px) {
   .download-section {
-    width: 100vw;
-    margin-left: 2rem;
     overflow: hidden;
+    margin-top: 4rem;
+    margin-left: 0;
+    padding: 0;
   }
   .download-contents h4 {
-    width: 100%;
+    font-size: 24px !important;
   }
+
   .phone-image {
-    margin-left: 4rem;
     overflow: hidden;
+    margin-left: 5.5rem;
   }
-  .ios-app img {
-    width: 5rem;
-    overflow: hidden;
+  .ios-app {
+    width: 16rem;
   }
 }
