@@ -16,17 +16,27 @@
   font-family: "Tomato-Grotesk";
 }
 .asset-header p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "DM Sans";
+  line-height: 24px;
 }
+
 .first-asset,
-.second-asset,
-.third-asset {
-  min-height: 600px;
+.second-asset {
   border: #c4c4c4;
   width: 28%;
   border-radius: 5px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-height: 520px;
+}
+
+.third-asset {
+  height: 600px;
+  border: #c4c4c4;
+  width: 28%;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-height: 520px;
 }
 .second-asset,
 .third-asset {
@@ -50,7 +60,7 @@
   height: 120px;
   background-color: #fff;
   position: absolute;
-  bottom: 27rem;
+  bottom: 21rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -70,9 +80,10 @@
 .asset-texts p {
   width: 90%;
   margin: auto;
-  font-size: 17px;
+  font-size: 16px;
   color: #4a5050;
-  line-height: 1.6;
+  line-height: 24px;
+  font-weight: 400;
   font-family: "DM sans";
 }
 .foot-text {
@@ -80,7 +91,7 @@
   height: 100%;
 }
 .foot-text1 {
-  margin-top: 80px;
+  margin-top: 8px;
   height: 100%;
 }
 .foot-text span,
@@ -92,6 +103,10 @@
   display: inline-block;
   width: 100%;
   padding: 0 10px 10px 10px;
+  margin-top: 62px;
+}
+.third-asset .foot-link {
+  margin-top: 10px;
 }
 .foot-link a {
   text-decoration: none;
@@ -142,5 +157,20 @@
   .round-image {
     left: 32% !important;
     top: 50px;
+  }
+}
+
+@media only screen and (min-width: 830px) and (max-width: 1084px) {
+  .second-asset {
+    min-height: 620px;
+  }
+  .second-asset .foot-link {
+    margin-top: 43px;
+  }
+  .third-asset {
+    min-height: 620px;
+  }
+  .round-image {
+    bottom: 27rem;
   }
 }

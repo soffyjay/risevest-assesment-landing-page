@@ -6,7 +6,8 @@
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 6rem;
   align-items: center;
   height: 75px;
   background-color: #fff;
@@ -48,6 +49,9 @@ li a {
     position: absolute;
     top: 15px;
     left: 35px;
+  }
+  .navbar {
+    padding-left: 3.5rem;
   }
   .nav-links {
     display: none;

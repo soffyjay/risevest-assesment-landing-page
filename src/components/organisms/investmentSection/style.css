@@ -8,15 +8,16 @@
   color: #2d2d2d;
   width: 90%;
   font-family: "Tomato-Grotesk";
-  font-weight: 800;
+  font-weight: 600;
 }
 .investment-wrapper p {
   width: 80%;
-  line-height: 1.8;
-  font-size: 20px;
+  line-height: 24px;
+  font-size: 16px;
   color: #2d2d2d;
   padding: 20px 0;
   font-family: "DM Sans";
+  font-weight: 500;
 }
 .investment-wrapper a {
   color: #07969e;
@@ -32,7 +33,9 @@
 .row-reverse {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
+  align-items: space-evenly;
+  justify-content: center;
+  width: 100%;
 }
 .investment-text {
   flex: 1;

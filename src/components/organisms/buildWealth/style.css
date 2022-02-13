@@ -20,12 +20,13 @@
 .wealth-text h3 {
   font-size: 20px;
   font-weight: normal;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   font-family: "Tomato-Grotesk";
 }
 .wealth-text h4 {
   font-size: 42px;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
+  font-weight: 600;
   font-family: "Tomato-Grotesk";
 }
 .wealth-text h4 span {

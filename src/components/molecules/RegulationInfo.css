@@ -57,19 +57,21 @@
   border: 1px solid red;
 }
 .text-content {
-  width: 50%;
   margin: auto;
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 29rem;
+  left: 0rem;
   text-align: center;
+  padding: 0 10rem;
 }
 .text-content h4 {
   padding: 20px 0;
   font-size: 42px;
   margin-top: 8rem;
   font-family: "Tomato-Grotesk";
+  text-align: center;
+  width: 100%;
 }
 .text-content p {
   color: #4a5050;
@@ -85,13 +87,13 @@
     height: 30rem;
     width: 50%;
   }
-  .text-content {
+  /* .text-content {
     position: absolute;
     top: 1rem;
     bottom: 0;
     left: 1rem;
     width: 100%;
-  }
+  } */
   .text-content h4 {
     width: 90%;
     margin: auto;
@@ -104,11 +106,7 @@
     width: 50%;
   }
   .text-content {
-    position: absolute;
-    top: 1rem;
-    bottom: 0;
-    left: 1rem;
-    width: 100%;
+    padding: 0 3rem;
   }
   .first,
   .second,

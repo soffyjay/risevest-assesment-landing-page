@@ -1,7 +1,7 @@
 import React from "react";
 import iosdownload from "../../../assets/images/Frame 72.jpg";
 import googledownload from "../../../assets/images/Frame 73.jpg";
-import phoneimage from "../../../assets/images/Subtract.jpg";
+import phoneimage from "../../../assets/images/Subtract.svg";
 import arm from "../../../assets/images/arm.png";
 import western from "../../../assets/images/westernunion.png";
 import techstars from "../../../assets/images/techstars.png";

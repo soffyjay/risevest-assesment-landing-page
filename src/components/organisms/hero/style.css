@@ -19,14 +19,16 @@
   width: 100%;
   font-family: "Tomato-Grotesk";
   font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 16px;
 }
 .hero-text h2 {
   font-weight: 300;
   color: #4a5050;
   font-size: 18px;
   width: 80%;
-  line-height: 1.4;
-  margin: 20px 0;
+  line-height: 24px;
+  margin-bottom: 32px;
   font-family: "DM Sans";
 }
 .hero-image {
