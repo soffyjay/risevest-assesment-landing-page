@@ -23,14 +23,14 @@
 .review-container {
   display: flex;
   justify-content: space-evenly;
-  width: 98%;
-  margin: auto;
+  width: 100%;
+  padding: 0 1.5rem;
 }
 .review-box {
-  margin: 10px 20px;
   box-shadow: 0px 12px 24px rgba(64, 187, 195, 0.15);
   border-radius: 10px;
   min-height: 18rem;
+  margin: 1rem 1.1rem;
   padding-bottom: 20px;
 }
 .review-box p {
@@ -60,13 +60,15 @@
 @media (max-width: 799px) {
   .review-container {
     flex-direction: column;
+    width: 100%;
   }
   .review-box {
-    width: 70%;
-    margin: auto;
+    width: 100%;
+    margin: 0;
   }
   .review-section .mission-text {
-    width: 60%;
+    width: 100%;
+    padding: 1rem 1.4rem;
   }
   .review-section h4 {
     font-size: 32px;
@@ -77,7 +79,8 @@
     width: 70%;
   }
   .review-section h4 {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 29px;
   }
 }

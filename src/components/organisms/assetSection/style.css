@@ -1,7 +1,7 @@
 .container {
   display: flex;
-  width: 95%;
-  margin: auto;
+  width: 100%;
+  padding: 0 2rem;
   justify-content: space-evenly;
   margin-top: 45px;
 }
@@ -114,7 +114,7 @@
   .first-asset,
   .second-asset,
   .third-asset {
-    width: 70%;
+    width: 100%;
     align-items: center;
     margin: auto;
     margin-bottom: 80px;
@@ -127,12 +127,12 @@
 @media (max-width: 640px) {
   .round-image {
     position: relative;
-    left: 100px;
+    left: 50%;
   }
 }
 @media (max-width: 420px) {
   .round-image {
     position: relative;
-    left: 80px;
+    left: 35%;
   }
 }
