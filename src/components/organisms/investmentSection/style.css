@@ -8,7 +8,7 @@
   color: #2d2d2d;
   width: 90%;
   font-family: "Tomato-Grotesk";
-  font-weight: 600;
+  font-weight: 800;
 }
 .investment-wrapper p {
   width: 80%;
@@ -23,7 +23,6 @@
   text-decoration: none;
   font-size: 20px;
   font-family: "Tomato-Grotesk";
-  padding: 0;
 }
 .row {
   display: flex;
@@ -62,9 +61,10 @@
     width: 70%;
     height: auto;
   }
-  .investment-wrapper h3,
-  p {
-    margin: auto;
+  .investment-wrapper p {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 17px;
   }
   .investment-text {
     width: 100%;
@@ -75,5 +75,7 @@
   }
   .investment-wrapper h3 {
     font-size: 32px;
+    margin: auto;
+    padding: 0.5rem 0;
   }
 }
