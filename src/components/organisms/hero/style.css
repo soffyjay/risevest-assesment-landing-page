@@ -55,8 +55,10 @@
 }
 .app-download {
   display: flex;
-  justify-content: space-between;
-  width: 53%;
+  width: 23rem;
+}
+.app-download img {
+  padding-right: 2rem;
 }
 .hero-logos {
   width: 100%;
