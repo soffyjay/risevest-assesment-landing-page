@@ -28,8 +28,8 @@
   font-weight: 600;
   font-family: "Tomato-Grotesk";
   font-size: 40px;
-  padding-bottom: 2rem;
   width: 100%;
+  padding: 0 2rem 2rem 0;
 }
 .download-contents .dollar-text {
   color: #4a5050;
@@ -48,16 +48,14 @@
 }
 .ios-app {
   margin-top: 2rem;
-  width: 48%;
-  justify-content: space-between;
-  display: flex;
+  width: 25rem;
+}
+.ios-app img {
+  padding-right: 2rem;
 }
 @media only screen and (max-width: 1183px) and (min-width: 840px) {
   .download-section {
     height: 32rem;
-  }
-  .ios-app {
-    width: 21.3rem;
   }
 }
 

@@ -28,7 +28,10 @@
   border-radius: 5px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-
+.second-asset,
+.third-asset {
+  position: relative;
+}
 .upper-container-first {
   background-color: #fff4f0;
   height: 120px;
@@ -46,18 +49,18 @@
   width: 120px;
   height: 120px;
   background-color: #fff;
-  position: relative;
-  bottom: 50px;
+  position: absolute;
+  bottom: 27rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 100px;
+  left: 40%;
 }
 .asset-texts {
   text-align: center;
-  position: relative;
-  bottom: 30px;
+  margin-top: 2rem;
+  padding-top: 2rem;
 }
 .asset-texts h4 {
   font-size: 28px;
@@ -97,17 +100,7 @@
   font-weight: 600;
   font-family: "Tomato-Grotesk";
 }
-
-@media only screen and (max-width: 1200px) and (min-width: 860px) {
-  .container {
-    width: 100%;
-  }
-  .round-image {
-    position: relative;
-    left: 70px;
-  }
-}
-@media (max-width: 850px) {
+@media (max-width: 832px) {
   .container {
     flex-direction: column;
   }
@@ -119,20 +112,35 @@
     margin: auto;
     margin-bottom: 80px;
   }
+
   .round-image {
-    position: relative;
-    left: 180px;
+    left: 6rem;
   }
 }
-@media (max-width: 640px) {
-  .round-image {
-    position: relative;
-    left: 50%;
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 100%;
   }
-}
-@media (max-width: 420px) {
   .round-image {
-    position: relative;
     left: 35%;
+  }
+}
+@media (max-width: 959px) {
+  .round-image {
+    left: 25%;
+    top: 50px;
+  }
+}
+@media only screen and (min-width: 738px) and (max-width: 831px) {
+  .round-image {
+    left: 18rem !important;
+    top: 50px;
+  }
+}
+@media (max-width: 435px) {
+  .round-image {
+    left: 32% !important;
+    top: 50px;
   }
 }
